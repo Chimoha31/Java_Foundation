@@ -11,17 +11,15 @@
 --------------------------------------------------------------------------------------*/
 class Ex1_05_1 {
 	public static void main (String[] args) {
+//		21億前後までならint
+		int itIndustryLifetimeWage = 100000000;
+//		21億以上ならlong型を使う
+		long itIndustryMarketScale = 15000000000000L;
 		
+		char myFavoriteKanji = '穂';
+		String myDreamJob = "frontend-engineer";
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		boolean isPreviousGraduate = true;
 		
 	}
 }
