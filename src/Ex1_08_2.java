@@ -20,8 +20,20 @@ class Ex1_08_2 {
 		String [][] animals= {{"アメリカンショートヘア", "マンチカン"}, {"ジャンガリアンハムスター", "ハリネズミ"}, {"オカメインコ", "ブンチョウ"}, {"ゴールデンレトリバー", "トイプードル"}};
 		System.out.println(animals[3][1]);
 		
-		
-		
+//		primitive
+		char name1  = 'm';
+		char name2 = 'm';
+		System.out.println(name1 == name2 );
+//		reference(疑似primitive)
+		String name3 = "moco";
+		String name4 = "moco";
+		boolean result1 = name3 == name4;;
+		System.out.println(result1);
+//		疑似ではないString型
+		String name5 = new String("ちほ");
+		String name6 = new String("ちほ");
+		boolean result2 = name5 == name6;
+		System.out.println(result2);
 		
 		
 		
