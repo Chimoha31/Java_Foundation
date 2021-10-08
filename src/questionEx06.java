@@ -51,6 +51,16 @@ class questionEx06 {
 		String e = String.valueOf(c);
 		System.out.println(e);
 		
+		int a = 100;
+		double b = 1.5;
+		String r = "7";
+		double d = 1.2;
+		
+		System.out.println( Integer.parseInt((int)(a + b) + r ) + d) ;
+		
+		
+		
+		
 	}
 
 }
