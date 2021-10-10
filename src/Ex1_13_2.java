@@ -12,8 +12,8 @@
 ----------------------------------------------------*/
 public class Ex1_13_2 {
 	public static void main (String[] args) {
-		String num = args[0];
-		switch(num) {
+		String bloodTypeNum = args[0];
+		switch(bloodTypeNum) {
 		case "1":
 			System.out.println("あなたは几帳面な性格の方ですね？");
 			break;
